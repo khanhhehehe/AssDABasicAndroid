@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_login">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"/>
+        <EditText
+            android:id="@+id/edt_taikhoan"
+            android:hint="Tài khoản:"
+            android:ems="10"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/background_edt"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_matkhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_edt"
+                android:ems="10"
+                android:hint="Mật khẩu:"
+                android:inputType="textPassword"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/show_pass"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:onClick="ClickMethod"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_visibility_off_24" />
+        </RelativeLayout>
+        <CheckBox
+            android:id="@+id/cbo_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ghi nhớ mật khẩu"
+            android:textSize="22dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="15dp">
+        <Button
+            android:id="@+id/btn_login"
+            android:text="đăng nhập"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:onClick="ClickMethod"
+            android:background="@drawable/border_image"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+        <Button
+            android:id="@+id/btn_cancel"
+            android:text="hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ClickMethod"
+            android:background="@drawable/border_image"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+</FrameLayout>

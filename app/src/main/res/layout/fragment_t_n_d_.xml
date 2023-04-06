@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khanhnqph27525CP17315ThemNguoiDung.TND_Fragment"
+    android:padding="20dp"
+    android:background="@drawable/background_matkhau">
+
+    <LinearLayout
+        android:background="@drawable/bg_matkhau"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_tenDangNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/background_edt"
+            android:hint="Tên đăng nhập:"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/edt_hoTen"
+            android:hint="Họ và tên:"
+            android:background="@drawable/background_edt"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_passTT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_edt"
+                android:hint="Mật khẩu:"
+                android:inputType="textPassword"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/show_passTND"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_visibility_off_24" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_passConfirmTT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_edt"
+                android:hint="Xác nhận mật khẩu:"
+                android:inputType="textPassword"
+                android:textSize="20dp" />
+            <ImageView
+                android:id="@+id/show_pass2TND"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:alpha=".5"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_visibility_off_24" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cancel_TT"
+                android:text="Hủy"
+                android:layout_marginRight="40dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_baseline_cancel_24"
+                android:backgroundTint="#B9F6CA"/>
+            <Button
+                android:id="@+id/btn_addTT"
+                android:text="lưu"
+                android:drawableRight="@drawable/ic_baseline_change_circle_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B9F6CA"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

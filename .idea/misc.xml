@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/background_drop.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/background_edt.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/background_login.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/background_matkhau.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/bg_detail.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/bg_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/bg_item.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/bg_matkhau.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/bg_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/border_image.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/ic_baseline_library_add_24.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/activity_hello.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/activity_test_ex.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/activity_tong_te_xactivity.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/detail_loaisach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/detail_phieumuon.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/detail_sach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/detail_thanhvien.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_add_loaisach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_add_phieumuon.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_add_t_ex.xml" value="0.136" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_members.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_members_update.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_sach.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_thanhvien_update.xml" value="0.253125" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_update_loaisach.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_update_phieumuon.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_update_sach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/dialog_update_t_ex.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_d_m_k_.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_d_t_.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_q_l_l_s_.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_q_l_p_m_.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_q_l_s_.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_q_l_t_v_.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_s_m_n_.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/fragment_t_n_d_.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/head_navigation.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_loaisach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_phieumuon.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_sach.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_spinner.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_t_ex.xml" value="0.2" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_thanhvien.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_thongke.xml" value="0.176" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/layout/item_tong_t_ex.xml" value="0.152" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/Assignment_plus/app/src/main/res/menu/menu.xml" value="0.176" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

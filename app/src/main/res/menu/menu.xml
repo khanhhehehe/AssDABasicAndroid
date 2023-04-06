@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_chucnang"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/quanlyphieumuon"
+            android:title="Quản lý phiếu mượn"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/quanlyloaisach"
+            android:title="Quản lý loại sách"
+            android:icon="@drawable/ic_baseline_library_add_24"/>
+        <item
+            android:id="@+id/quanlysach"
+            android:title="Quản lý sách"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"/>
+        <item
+            android:id="@+id/quanlythanhvien"
+            android:title="Quản lý thành viên"
+            android:icon="@drawable/ic_baseline_groups_24"/>
+    </group>
+    <item android:title="Thống kê">
+        <menu>
+            <group android:id="@+id/thongke"
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sachmuonnhieu"
+                    android:title="10 sách mượn nhiều nhất"
+                    android:icon="@drawable/ic_baseline_vertical_align_top_24"/>
+                <item
+                    android:id="@+id/doanhthu"
+                    android:title="Doanh thu"
+                    android:icon="@drawable/ic_baseline_attach_money_24"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Người dùng">
+        <menu>
+            <group android:id="@+id/nguoidung"
+
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/themnguoidung"
+                    android:title="Thêm người dùng"
+                    android:icon="@drawable/ic_baseline_person_add_24"/>
+                <item
+                    android:id="@+id/doimatkhau"
+                    android:title="Đổi mật khẩu"
+                    android:icon="@drawable/ic_baseline_vpn_key_24"/>
+                <item
+                    android:id="@+id/dangxuat"
+                    android:title="Đăng xuất"
+                    android:icon="@drawable/ic_baseline_logout_24"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

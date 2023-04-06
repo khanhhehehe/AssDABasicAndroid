@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_loaisP"
+            android:hint="Loại sản phẩm:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+
+        <EditText
+            android:id="@+id/edt_masP"
+            android:hint="Mã sản phẩm:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+        <EditText
+            android:id="@+id/edt_tensP"
+            android:hint="Tên sản phẩm:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+        <EditText
+            android:id="@+id/edt_soLuong_tEx"
+            android:hint="Số lượng:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+        <EditText
+            android:id="@+id/edt_donGia_tEx"
+            android:hint="Đơn giá:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+        <EditText
+            android:id="@+id/edt_hanSD"
+            android:hint="Hạn sử dụng:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:background="@drawable/background_edt"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cancelSP"
+                android:text="Hủy"
+                android:layout_marginRight="40dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_baseline_cancel_24"
+                android:backgroundTint="#B9F6CA"/>
+            <Button
+                android:id="@+id/btn_addSP"
+                android:text="Thêm"
+                android:drawableRight="@drawable/ic_baseline_add_circle_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#B9F6CA"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@drawable/bg_dialog">
+    <EditText
+        android:id="@+id/edt_maSach"
+        android:hint="Mã sách:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/background_edt"/>
+
+    <EditText
+        android:id="@+id/edt_tenSach"
+        android:hint="Tên sách:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/background_edt"/>
+    <EditText
+        android:id="@+id/edt_giaThue"
+        android:hint="Giá thuê:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/background_edt"/>
+    <EditText
+        android:id="@+id/edt_tacGia"
+        android:hint="Tác giả:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/background_edt"/>
+
+    <Spinner
+        android:id="@+id/spinner_sach"
+        style="@style/SpinnerTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_cancel_Sach"
+            android:text="Hủy"
+            android:layout_marginRight="40dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_cancel_24"
+            android:backgroundTint="#B9F6CA"/>
+        <Button
+            android:id="@+id/btn_add_Sach"
+            android:text="Thêm"
+            android:drawableRight="@drawable/ic_baseline_add_circle_24"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B9F6CA"/>
+    </LinearLayout>
+</LinearLayout>
